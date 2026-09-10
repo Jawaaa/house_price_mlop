@@ -1,0 +1,10 @@
+env/
+__pycache__/
+*.pyc
+mlflow.db
+logs/*.log
+.pytest_cache/
+env/
+mlruns/
+models/*.pkl
+data/
