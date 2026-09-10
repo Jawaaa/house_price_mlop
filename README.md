@@ -12,31 +12,8 @@ Dataset: [House Prices - Advanced Regression Techniques (Kaggle)](https://www.ka
 
 ## 📁 Struktur Project
 
-house_price_mlops/
-├── src/
-│ ├── config.py # pengaturan pusat (path, parameter)
-│ ├── data/
-│ │ └── preprocessing.py # pembersihan & persiapan data
-│ ├── models/
-│ │ ├── train.py # pelatihan model + MLflow tracking
-│ │ └── predict.py # pemuatan model & proses prediksi
-│ ├── utils/
-│ │ └── logger.py # structured logging
-│ └── api/
-│ ├── main.py # FastAPI endpoints
-│ ├── schemas.py # validasi request/response (Pydantic)
-│ └── monitoring.py # metrik Prometheus
-├── tests/
-│ └── test_api.py # unit test untuk API
-├── data/train.csv
-├── models/ # model hasil training (best_model.pkl)
-├── logs/ # file log tersimpan di sini
-├── requirements.txt # dependency lengkap (dev/lokal)
-├── requirements-docker.txt # dependency ringan (khusus Docker)
-├── Dockerfile
-├── docker-compose.yml # service: fastapi + prometheus
-├── prometheus.yml
-└── pytest.ini
+<img width="662" height="634" alt="image" src="https://github.com/user-attachments/assets/9f386798-7c91-4bd4-aa9e-cc7878cdbdc9" />
+
 
 
 ---
